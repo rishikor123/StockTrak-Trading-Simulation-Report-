@@ -1,0 +1,227 @@
+# StockTrak Options Trading Simulation
+
+An applied derivatives and portfolio-management project analyzing macroeconomic signals, leveraged technology exposure, option pricing, hedging, and risk management through a semester-long StockTrak trading simulation.
+
+## Project Summary
+
+This project documents a simulated investment portfolio built around a market thesis that stable monetary-policy expectations and continued artificial-intelligence investment would support technology and semiconductor companies.
+
+The strategy combined:
+
+- Leveraged exchange-traded funds, including **SOXL** and **TQQQ**
+- Directional call options on **Nvidia, SOXL, and TQQQ**
+- A protective put position on **SPY**
+- Macroeconomic research related to interest rates, inflation, labor-market data, earnings, and market sentiment
+
+The simulation connected financial theory with real market behavior, including option convexity, implied volatility, time decay, leveraged-ETF risk, and portfolio hedging.
+
+## Performance Snapshot
+
+Based on the historical portfolio-value data included in the report:
+
+| Metric | Result |
+|---|---:|
+| Simulation period | September 2, 2025–November 19, 2025 |
+| Starting portfolio value | $200,000.00 |
+| Ending portfolio value | $233,595.15 |
+| Total return | 16.8% |
+| Peak portfolio value | $321,188.63 |
+| Peak return from starting value | 60.6% |
+| Peak-to-final drawdown | -27.3% |
+| Total trades recorded | 20 |
+| Final recorded rank | 7 |
+
+> Performance reflects an academic simulation and does not represent returns from a live brokerage account.
+
+## Investment Thesis
+
+The portfolio was built around three expectations:
+
+1. The Federal Reserve would avoid introducing materially stronger tightening signals.
+2. Stable or improving economic conditions would support risk appetite.
+3. Continued investment in artificial intelligence, graphics processing units, and data-center infrastructure would support semiconductor and technology companies.
+
+Rather than expressing this view entirely through common stock, the portfolio used leveraged ETFs and options to study how direction, volatility, time to expiration, and instrument structure affect returns.
+
+## Featured Trade Analysis
+
+### 1. Nvidia $175 Calls — Strongest Trade
+
+The most successful position involved Nvidia call options with a $175 strike price and an early-October expiration.
+
+**Rationale**
+
+- Nvidia remained central to artificial-intelligence infrastructure spending.
+- Semiconductor momentum and improving market sentiment supported the directional thesis.
+- The calls provided convex exposure to an upward move in the underlying stock.
+
+**Outcome**
+
+- Approximate realized profit: **$4,425**
+- The position benefited from positive price movement, increasing delta, high gamma near the strike, and supportive implied volatility.
+- Partial exits were used to protect gains and reduce exposure as the trade became profitable.
+
+**Key lesson**
+
+Options can generate substantial gains when direction, timing, and volatility align, but the same convexity that accelerates gains can also increase downside risk.
+
+---
+
+### 2. SOXL $31 Calls — Largest Loss
+
+The largest loss came from SOXL call options with a $31 strike price and a November expiration.
+
+SOXL is a three-times leveraged semiconductor ETF that resets daily. This structure makes it especially sensitive to volatility, path dependency, and compounding effects.
+
+**Rationale**
+
+- Semiconductor-sector strength was expected to continue.
+- Leveraged ETF exposure combined with an out-of-the-money call created substantial upside potential.
+
+**Outcome**
+
+- Total loss exceeded **$6,000**
+- The position was hurt by sideways and volatile semiconductor performance.
+- Daily leveraged-ETF rebalancing contributed to volatility drag.
+- The calls also suffered from time decay, an unfavorable underlying-price path, and reduced probability of expiring in the money.
+
+**Key lesson**
+
+Layering option leverage on top of a leveraged ETF creates multiple sources of risk. A correct long-term sector view may still produce a losing trade when the instrument structure, timing, and path of returns are unfavorable.
+
+---
+
+### 3. SPY $585 Puts — Portfolio Hedge
+
+The most strategically interesting trade involved SPY put options purchased before a major labor-market report.
+
+**Rationale**
+
+- The portfolio already had significant long exposure to technology and semiconductors.
+- A stronger-than-expected labor report could have increased Treasury yields, delayed expected interest-rate cuts, and pressured equity valuations.
+- The put offered an asymmetric hedge against a sudden market decline.
+
+**Outcome**
+
+- The market absorbed the economic release without a major selloff.
+- Implied volatility declined after the event.
+- The put expired worthless.
+
+**Key lesson**
+
+A hedge can serve a valid portfolio purpose even when it does not generate a profit. Protective options should be evaluated by the risk they offset, not only by their standalone return.
+
+## Portfolio Development
+
+The portfolio initially benefited from strength in technology and semiconductor assets. Its value increased significantly through September and October, reaching a peak of approximately **$321,189** on October 29.
+
+Performance weakened during November as several open option positions approached expiration. Even without a complete collapse in the underlying securities, option values declined because of:
+
+- Accelerating theta decay
+- Reduced time remaining for out-of-the-money contracts
+- Changes in implied volatility
+- Concentrated exposure to correlated technology assets
+- Leveraged-ETF volatility drag
+- Limited profit-taking near the portfolio peak
+
+The late-period drawdown demonstrated the difference between being directionally correct and managing the full lifecycle of a leveraged position.
+
+## Financial Concepts Applied
+
+This simulation applied concepts from derivatives, portfolio management, and financial markets, including:
+
+- Call and put option payoff structures
+- Delta, gamma, theta, and vega
+- Implied volatility
+- Intrinsic and time value
+- Black–Scholes option-pricing intuition
+- Binomial option-pricing logic
+- Risk-neutral valuation
+- Protective puts
+- Convexity
+- Leveraged-ETF rebalancing
+- Volatility drag
+- Concentration risk
+- Position sizing
+- Drawdown analysis
+- Macroeconomic event risk
+
+## Risk Analysis
+
+The portfolio’s strongest returns and largest losses came from the same underlying design: concentrated, leveraged exposure to technology and semiconductors.
+
+The primary risks were:
+
+1. **Concentration risk**  
+   Multiple positions depended on the same technology and semiconductor market factors.
+
+2. **Leverage risk**  
+   SOXL and TQQQ amplified daily market movements, while options added another layer of leverage.
+
+3. **Time-decay risk**  
+   Short-dated and out-of-the-money options lost value rapidly when the anticipated move did not occur soon enough.
+
+4. **Volatility risk**  
+   Option premiums declined when implied volatility fell after major events.
+
+5. **Path dependency**  
+   Leveraged ETFs can underperform their stated multiple over longer periods when markets are volatile or range-bound.
+
+6. **Exit-discipline risk**  
+   The portfolio reached a substantial peak but surrendered a meaningful portion of those gains before the simulation ended.
+
+## Key Lessons
+
+The simulation produced several practical takeaways:
+
+- A strong market thesis must be paired with an appropriate instrument.
+- Leveraged ETFs are not equivalent to ordinary long-term equity positions.
+- Short-dated options require precise timing as well as correct direction.
+- Profit-taking and predefined exit rules are essential for convex positions.
+- Hedging can be valuable even when the hedge itself expires worthless.
+- Portfolio-level risk matters more than evaluating each trade independently.
+- Longer-dated options may provide more flexibility when the investment thesis requires time to develop.
+- Concentrated exposure should be evaluated across all holdings, not ticker by ticker.
+
+## Suggested Visuals
+
+This repository can be strengthened by adding:
+
+- Portfolio value over time
+- Drawdown over time
+- Daily portfolio-return distribution
+- Peak-to-final performance comparison
+- Winning versus losing trade summary
+- Technology and semiconductor exposure breakdown
+- Timeline of major macroeconomic events and trades
+
+## Skills Demonstrated
+
+- Options and derivatives analysis
+- Portfolio-performance evaluation
+- Macroeconomic research
+- Risk and return analysis
+- Financial-market interpretation
+- Data visualization in Excel
+- Trade-thesis development
+- Investment writing
+- Performance attribution
+- Risk-management reflection
+
+## Limitations
+
+- The project was completed in a simulated trading environment.
+- Transaction execution may not fully reflect real-world liquidity, slippage, taxes, or brokerage constraints.
+- The portfolio was concentrated in technology and semiconductor exposure.
+- The analysis focuses on a limited number of trades and one market period.
+- Simulated results should not be interpreted as evidence of repeatable investment performance.
+
+## Disclaimer
+
+This repository is an academic project created for educational purposes. It is not investment advice, a recommendation to trade any security, or a representation of live investment performance.
+
+## Author
+
+**Rishita Korapati**
+
+Finance and Business Analytics graduate with interests in financial analysis, quantitative research, risk, portfolio analytics, and responsible artificial intelligence.
